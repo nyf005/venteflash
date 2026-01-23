@@ -1,0 +1,101 @@
+# generated: 2026-01-23
+# project: VenteFlash
+# project_key: venteflash
+# tracking_system: file-system
+# story_location: /Users/fabricendri/Developer/VenteFlash/_bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog -> in-progress: Automatically when first story is created (via create-story)
+#   - in-progress -> done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-01-23
+project: VenteFlash
+project_key: venteflash
+tracking_system: file-system
+story_location: /Users/fabricendri/Developer/VenteFlash/_bmad-output/implementation-artifacts
+
+development_status:
+  epic-1: in-progress
+  1-1-setup-initial-du-projet-starter-template: review
+  1-2-signup-tenant-owner-creation: backlog
+  1-3-isolation-multi-tenant-et-rls: backlog
+  1-4-gestion-des-utilisateurs-et-roles: backlog
+  1-5-entitlements-et-quotas-dabonnement: backlog
+  1-6-connexion-et-gestion-du-canal-whatsapp: backlog
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-crud-catalogue-produits: backlog
+  2-2-variantes-de-produits: backlog
+  2-3-creation-et-consultation-des-items-live: backlog
+  2-4-photo-optionnelle-pour-item-live: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-reservation-atomique: backlog
+  3-2-file-dattente-et-notification: backlog
+  3-3-expiration-automatique: backlog
+  3-4-configuration-duree-reservation: backlog
+  3-5-journal-des-evenements-de-reservation: backlog
+  3-6-prolongation-dune-reservation: backlog
+  3-7-auto-pass-file-dattente: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-creation-commande-numero-unique: backlog
+  4-2-statuts-audit-trail: backlog
+  4-3-correction-commande-et-reconfirmation: backlog
+  4-4-grille-de-frais-par-commune: backlog
+  4-5-capture-adresse-client: backlog
+  4-6-mise-a-jour-adresse-et-recalcul-frais: backlog
+  epic-4-retrospective: optional
+
+  epic-5: backlog
+  5-1-mode-paiement-par-defaut: backlog
+  5-2-soumission-preuve-paiement: backlog
+  5-3-validation-preuve-et-etat-paiement: backlog
+  5-4-montant-attendu-et-montant-declare: backlog
+  5-5-retention-des-preuves: backlog
+  epic-5-retrospective: optional
+
+  epic-6: backlog
+  6-1-ingestion-webhook-idempotence: backlog
+  6-2-intent-parsing-et-reponses-guidees: backlog
+  6-3-handoff-humain: backlog
+  6-4-messages-pre-rediges: backlog
+  6-5-opt-out-stop: backlog
+  6-6-relances-transactionnelles: backlog
+  epic-6-retrospective: optional
+
+  epic-7: backlog
+  7-1-journalisation-des-evenements: backlog
+  7-2-file-derreurs-et-retries: backlog
+  7-3-correction-commande-et-relance: backlog
+  7-4-export-csv: backlog
+  7-5-liberation-en-masse-des-items-live: backlog
+  epic-7-retrospective: optional
