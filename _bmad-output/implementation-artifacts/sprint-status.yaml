@@ -44,8 +44,8 @@ development_status:
   1-1-setup-initial-du-projet-starter-template: done
   1-2-signup-tenant-owner-creation: done
   1-3-isolation-multi-tenant-et-rls: done
-  1-4-gestion-des-utilisateurs-et-roles: backlog
-  1-5-entitlements-et-quotas-dabonnement: backlog
+  1-4-gestion-des-utilisateurs-et-roles: review
+  1-5-entitlements-et-quotas-dabonnement: review
   1-6-connexion-et-gestion-du-canal-whatsapp: backlog
   epic-1-retrospective: optional
 
